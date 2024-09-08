@@ -1,0 +1,44 @@
+/* Estilos para a página de login */
+.login-container {
+    max-width: 400px; /* Largura máxima do formulário */
+    margin: 5vh auto; /* Centraliza o formulário na tela */
+    padding: 20px; /* Espaçamento interno */
+    background: #ffffff; /* Fundo branco */
+    border-radius: 5px; /* Bordas arredondadas */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra */
+}
+
+.login-container label {
+    display: block; /* Exibe cada rótulo em uma nova linha */
+    margin-bottom: 5px; /* Espaçamento abaixo dos rótulos */
+    color: #35424a; /* Cor do texto */
+}
+
+.login-container input {
+    width: 98%; /* Largura total do campo */
+    padding: 10px; /* Espaçamento interno */
+    margin-bottom: 15px; /* Espaçamento abaixo dos campos */
+    border: 1px solid #ccc; /* Borda cinza */
+    border-radius: 5px; /* Bordas arredondadas */
+}
+
+.login-container button {
+    width: 100%; /* Largura total do botão */
+    padding: 10px; /* Espaçamento interno */
+    background-color: #28a745; /* Cor de fundo do botão */
+    color: #ffffff; /* Cor do texto */
+    border: none; /* Remove bordas */
+    border-radius: 5px; /* Bordas arredondadas */
+    font-size: 1em; /* Tamanho da fonte */
+    cursor: pointer; /* Muda o cursor para indicar que é clicável */
+    transition: background-color 0.3s ease; /* Transição suave para a cor de fundo */
+}
+
+.login-container button:hover {
+    background-color: #218838; /* Cor de fundo ao passar o mouse */
+}
+
+    
+footer {
+    position: absolute !important;
+}

@@ -1,0 +1,72 @@
+a{
+    border-bottom:2px solid indianred ;
+    margin: 0 2%;
+}
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+main div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.perfil-container {
+    max-width: 600px; /* Largura máxima do container */
+    margin: 20px auto; /* Centraliza o container na página */
+    padding: 20px; /* Espaçamento interno */
+    background-color: #ffffff; /* Cor de fundo do container */
+    border-radius: 8px; /* Bordas arredondadas */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+.perfil-container h2 {
+    text-align: center; /* Centraliza o título */
+    color: #35424a; /* Cor do texto do título */
+}
+
+.perfil-container label {
+    display: block; /* Faz com que os labels ocupem toda a largura */
+    margin-bottom: 5px; /* Espaçamento abaixo dos labels */
+    font-weight: bold; /* Deixa os labels em negrito */
+}
+
+.perfil-container input[type="text"],
+.perfil-container input[type="password"],
+.perfil-container input[type="file"],
+.perfil-container textarea {
+    width: 100%; /* Largura total dos campos */
+    height: 110%;
+    padding: 10px; /* Espaçamento interno */
+    margin-bottom: 15px; /* Espaçamento abaixo dos campos */
+    border: 1px solid #ccc; /* Borda cinza */
+    border-radius: 4px; /* Bordas arredondadas */
+    font-size: 16px; /* Tamanho da fonte */
+    resize: none !important;
+}
+
+.perfil-container textarea {
+    height: 100px; /* Altura do campo de texto */
+    resize: vertical; /* Permite redimensionar verticalmente */
+}
+
+.perfil-container button {
+    width: 100%; /* Largura total do botão */
+    padding: 10px; /* Espaçamento interno */
+    background-color: #28a745; /* Cor de fundo do botão */
+    color: #ffffff; /* Cor do texto do botão */
+    border: none; /* Remove bordas */
+    border-radius: 4px; /* Bordas arredondadas */
+    font-size: 16px; /* Tamanho da fonte */
+    cursor: pointer; /* Muda o cursor para indicar que é clicável */
+    transition: background-color 0.3s; /* Transição suave para a cor de fundo */
+}
+
+.perfil-container button:hover {
+    background-color: #218838; /* Cor do botão ao passar o mouse */
+}
+footer{
+    position: relative !important;
+}
